@@ -192,7 +192,7 @@
   height: 641px;
   top: 100px;
   left: 0;
-  background-image: url(https://github.com/user-attachments/assets/c2d3cfba-41ae-4ab0-8d81-fcfd908a1fb6);
+  background-image: url(./img/foto-33e75ff09dd601bbe69f351039152189-1.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -660,7 +660,7 @@
     width: 100%; /* Adjust to fit smaller screens */
     height: 300px; /* Adjust to maintain aspect ratio */
     top: 0;
-    background-image: url(https://github.com/user-attachments/assets/c2d3cfba-41ae-4ab0-8d81-fcfd908a1fb6);
+    background-image: url(./img/foto-33e75ff09dd601bbe69f351039152189-1.png);
     background-size: cover;
     background-position: 100%;
   }
@@ -953,10 +953,11 @@
     line-height: 72px;
     white-space: nowrap;
   }
+  
   .tentang-kami .footer {
     position: absolute;
-    width: 1518px;
-    height: 572px;
+    width: 768px;
+    height: 768px;
     top: 1900px;
     left: 0;
     background-color: transparent;
@@ -972,7 +973,7 @@
   .tentang-kami .kantor-pusat-jl {
     position: absolute;
     width: 391px;
-    top: 700px;
+    top: 580px;
     left: 48px;
     font-family: "Jost", Helvetica;
     font-weight: 400;
@@ -1010,32 +1011,32 @@
   
   .tentang-kami .telp {
     position: absolute;
-    top: 135px;
+    top: 380px;
     left: 48px;
     font-family: "Jost", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 14px;
     letter-spacing: 0;
-    line-height: 45px;
+    line-height: 20px;
   }
   
   .tentang-kami .telp-2 {
     position: absolute;
-    top: 48px;
-    left: 542px;
+    top: 470px;
+    left: 48px;
     font-family: "Jost", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 14px;
     letter-spacing: 0;
-    line-height: 45px;
+    line-height: 20px;
   }
   
   .tentang-kami .text-wrapper-3 {
-    top: 300px;
+    top: 430px;
     position: absolute;
-    left: 542px;
+    left: 48px;
     font-family: "Jost", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -1048,12 +1049,12 @@
   .tentang-kami .text-wrapper-4 {
     position: absolute;
     width: 117px;
-    top: 24px;
-    left: 956px;
+    top: 510px;
+    left: 48px;
     font-family: "DM Serif Display", Helvetica;
     font-weight: 400;
     color: #404040;
-    font-size: 24px;
+    font-size: 23px;
     letter-spacing: 0;
     line-height: 72px;
   }
@@ -1066,7 +1067,7 @@
     font-family: "Jost", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 0;
     line-height: 32px;
   }
@@ -1077,7 +1078,7 @@
     left: 48px;
     font-family: "DM Serif Display", Helvetica;
     color: #404040;
-    font-size: 24px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 72px;
     position: absolute;
@@ -1091,9 +1092,9 @@
     font-family: "DM Serif Display", Helvetica;
     font-weight: 400;
     color: #404040;
-    font-size: 24px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 72px;
-    white-space: nowrap;
   }
+  
 }
