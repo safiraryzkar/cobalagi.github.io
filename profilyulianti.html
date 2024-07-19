@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleP1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="header">
+        <img class="KAP-TBY-logo-kop" src="img/kap-tby-logo-kop-surat-1.png" alt="KAP Tri Bowo Yulianti Logo" />
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="menu-item">Beranda</a>
+            <a href="about.html" class="menu-item">Tentang Kami</a>
+            <a href="#" class="menu-item">Partner</a>
+            <a href="#" class="menu-item">Jasa</a>
+            <a href="#" class="menu-item">Klien</a>
+            <a href="#" class="menu-item">Kontak Kami</a>
+        </nav>
+        <div class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <script>
+        function toggleMenu() {
+            var navbar = document.getElementById("navbar");
+            if (navbar.className === "navbar") {
+                navbar.className += " responsive";
+            } else {
+                navbar.className = "navbar";
+            }
+        }
+        function handleClick(name) {
+            window.location.href = 'profil.html?name=' + encodeURIComponent(name);
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+
+    <div class="partner">
+      <div class="div">
+        <div class="section">
+          <div class="partner-wrapper">
+            <div class="text-wrapper-5">Partner</div>
+          </div>
+        </div>
+        <!-- Profil section moved below section -->
+        <div class="profil">
+          <span class="nama">Yulianti, SE., MBA., M.Si., CA., CPA., BKP.</span>
+          <span class="akuntan">Akuntan Register Negara D.10-053, Izin Praktek AP: 1337/KM.1/2011</span>
+          <div class="frame">
+            <div class="photo1"> 
+              <img src="https://i.pinimg.com/564x/39/37/58/39375867c3db49a36f3426f13fae737b.jpg">
+            </div>
+            <span class="bio">
+              Lahir di Wonosobo, 31 Juli 1966. Menyelesaikan Sarjana Ekonomi dan Pasca Sarjana di Universitas Diponegoro tahun 1991 dan 2008.
+
+              Beliau juga konsultan pajak yang terdaftar di Direktorat Jenderal Pajak (Kementerian Keuangan). Beliau menjalani profesi di bidang akuntan publik sejak tahun 1991, dan yang terakhir sebagai Pemimpin di KAP Yulianti, SE., BAP.
+              
+              Beliau berpengalaman sebagai auditor di beberapa perusahaan swasta, bank perkreditan rakyat (BPR), entitas nirlaba, dana pensiun, koperasi, laporan dana kampanye, maupun sektor lainnya.
+              
+              Spesialisasi beliau adalah BPR dan koperasi. Selain memberikan jasa dibidang akuntan publik, beliau juga sebagai trainer dan pengajar di Universitas Semarang.            </span>
+          </div>
+        </div>
+        <a href="partner.html">
+          <img src="./img/arrow_back.png" alt="Arrow Back" class="arrow-back">
+      </a>
+        <footer class="footer">
+          <div class="kolom">
+            <p class="div-2">
+              <span class="text-wrapper">
+                Kantor Pusat:<br />Jl. Puter III Blok ED4 Nomor 19 Sektor V Bintaro Jaya, Jurangmangu Timur, Pondok Aren, Tangerang Selatan 15222<br />
+              </span>
+              <span class="span">View maps<br /><br /></span>
+              <span class="text-wrapper">
+                Kantor Cabang:<br />Jl. Gemah Jaya II No. 345, Kinijaya, Kel. Kedungmundu, Kec. Tembalang, Kota Semarang, Jawa Tengah 50273<br />
+              </span>
+              <span class="span">View maps</span>
+            </p>
+            <div class="text-wrapper-2">Location</div>
+          </div>
+          <div class="kolom-2">
+            <p class="kontakkantor">
+              Kantor Pusat<br />Telp: 021-734 93047<br />Email: kaptby1@gmail.com<br /><br />Kantor Cabang<br />Telp: 021-734 93047<br />Email: kaptby1@gmail.com
+            </p>
+            <div class="contact">Contact Kami</div>
+          </div>
+          <div class="kolom-3">
+            <div class="div-2">Tentang Kami<br />Partner<br />Jasa<br />Klien<br />Kontak Kami</div>
+            <div class="KAP">KAP Tri Bowo Yulianti</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
