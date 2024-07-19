@@ -1,0 +1,335 @@
+.partner {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Changed to column for stacking sections */
+    justify-content: center;
+    width: 100%;
+}
+
+.partner .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    position: relative;
+}
+
+  .partner .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1672px;
+    position: relative;
+  }
+
+  .partner .footer {
+    position: absolute;
+    width: 1440px;
+    height: 572px;
+    top: 1100px;
+    left: 0;
+    background-color: #f8f8f8;
+  }
+
+  .partner .kolom {
+    position: absolute;
+    width: 433px;
+    height: 367px;
+    top: 24px;
+    left: 1011px;
+  }
+
+  .partner .div-2 {
+    position: absolute;
+    width: 429px;
+    top: 79px;
+    left: 0;
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+
+  .partner .text-wrapper {
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+
+  .partner .span {
+    text-decoration: underline;
+  }
+
+  .partner .text-wrapper-2 {
+    position: absolute;
+    width: 129px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+
+  .partner .kolom-2 {
+    position: absolute;
+    width: 178px;
+    height: 386px;
+    top: 23px;
+    left: 576px;
+  }
+
+  .partner .kontakkantor {
+    position: absolute;
+    width: 174px;
+    top: 80px;
+    left: 0;
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+
+  .partner .contact {
+    position: absolute;
+    width: 158px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+
+  .partner .kolom-3 {
+    position: absolute;
+    width: 433px;
+    height: 239px;
+    top: 24px;
+    left: 53px;
+  }
+
+  .partner .KAP {
+    position: absolute;
+    width: 292px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #fffefc;
+    box-shadow: 0px 4px 5px #00000005;
+    z-index: 1000;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .navbar .menu-item {
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  .KAP-TBY-logo-kop {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000;
+    font-size: 24px;
+  }
+
+  .partner .section {
+    position: absolute;
+    width: 1442px;
+    height: 300px;
+    top: 103px;
+    left: 0;
+  }
+  
+  .partner .partner-wrapper {
+    position: relative;
+    width: 1440px;
+    height: 300px;
+    background-image: url(./img/background-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .partner .text-wrapper-5 {
+    position: absolute;
+    width: 192px;
+    top: 104px;
+    left: 1110px;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #fffefc;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 72px;
+    white-space: nowrap;
+  }
+  
+  /* Add this to ensure that .profil is displayed below .section */
+  .partner .section + .profil {
+    position: relative;
+    margin-top: 500px;
+    left: 100px; /* Adjust this value based on the height of .section and any additional spacing you need */
+  }
+  
+  .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .nama {
+    font-family: "DM Serif Display", Helvetica;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .akuntan {
+    font-family: "Jost", Helvetica;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .frame {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .bio {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    width: 1000px;
+    color: white;
+    background-color: #005A70;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    flex: 1;
+    text-align: justify;
+    line-height: 33px;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 270px;
+    margin-right: 20px;
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjusts the image to cover the div area */
+}
+.photo1 {
+    width: 200px;
+    height: 240px;
+    margin-right: 20px;
+  }
+  .photo1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjusts the image to cover the div area */
+}
+
+.photo2 {
+    width: 200px;
+    height: 238px;
+    margin-right: 20px;
+  }
+  .photo2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjusts the image to cover the div area */
+}
+
+.arrow-back {
+    position: absolute;
+    top: 975px; /* Position from top */
+    left: 50%;  /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center */
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none; /* Menyembunyikan menu utama pada mode kecil */
+    }
+
+    .header {
+        height: 70px; /* Mengurangi tinggi header untuk mode kecil */
+    }
+
+    .KAP-TBY-logo-kop {
+        width: 150px; /* Mengurangi ukuran logo untuk mode kecil */
+    }
+
+    .icon {
+        display: block; /* Menampilkan ikon hamburger menu pada mode kecil */
+    }
+
+    .navbar.responsive {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #fffefc;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar.responsive .menu-item {
+        padding: 15px 20px;
+        text-align: center;
+        border-bottom: 1px solid #ddd; /* Garis pemisah antar menu */
+    }
+}
