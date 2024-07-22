@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleJ.css" />
+    <!-- Menggunakan Font Awesome untuk ikon hamburger menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="header">
+        <img class="KAP-TBY-logo-kop" src="img/kap-tby-logo-kop-surat-1.png" alt="KAP Tri Bowo Yulianti Logo" />
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="menu-item">Beranda</a>
+            <a href="about.html" class="menu-item">Tentang Kami</a>
+            <a href="partner.html" class="menu-item">Partner</a>
+            <a href="jasa.html" class="menu-item">Jasa</a>
+            <a href="#" class="menu-item">Klien</a>
+            <a href="#" class="menu-item">Kontak Kami</a>
+        </nav>
+        <!-- Icon hamburger menu -->
+        <div class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <script>
+        // Script untuk mengaktifkan menu responsif saat di layar kecil
+        function toggleMenu() {
+            var navbar = document.getElementById("navbar");
+            if (navbar.className === "navbar") {
+                navbar.className += " responsive";
+            } else {
+                navbar.className = "navbar";
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+<style>
+    .popup-trigger {
+        font-family: "Jost", Helvetica;
+        font-weight: 300;
+        position: absolute;
+        top: 20%;
+        font-size: 18px;
+        border-radius: 8px;
+        width: 950px;
+        text-align: justify;
+        line-height: 25px;
+        padding-top: 40px; /* Added padding to move text 10px down from close button */
+    }
+    .popup-trigger ol {
+        list-style-type: decimal; /* Use decimal for ordered lists */
+        padding-left: 20px; /* Add padding to ensure numbers are visible */
+    }
+    .popup-trigger ol li {
+        font-family: "Jost", Helvetica;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 10px; /* Add some space between list items */
+        margin-top: 20px;
+    }
+</style>
+    <div class="partner">
+        <div class="div">
+          <div class="box">
+            <div class="section">
+              <div class="overlap-group">
+                <div class="text">Jasa Pelatihan</div>
+              </div>
+              <img class="image" src="img/image-20.png" />
+            </div>
+            <div class="jasa">
+                <div class="frame">
+                  <img class="image-A3" src="img/image-7.png" />
+                  <div class="text-wrapper-A3">Training</div>
+              </div>
+          </div>
+        </div>
+        <div class="label">
+            <div class="flexcontainer">
+                <p class="text">
+                    <span class="text-wrapper">KAP Tri Bowo Yulianti, memberikan jasa konsultasi sistem sebagai berikut:<br /></span>
+                </p>
+                <div class="popup-trigger">
+                    Dunia usaha yang terus berkembang dan ketatnya persaingan menuntut perusahaan untuk selalu meningkatkan dan mengembangkan mutu sumber daya manusia. Untuk memenuhi kebutuhan ini kami menyelenggarakan beberapa pelatihan antara lain yaitu:
+                    <ol>
+                        <li>Pelatihan Penyusunan Laporan Keuangan Entitas</li>
+                        <li>Pelatihan Akuntansi dan Pengelolaan Keuangan Dana Pensiun</li>
+                        <li>Pelatihan Akuntansi dan Pengelolaan Keuangan Organisasi Nirlaba, Sekolah & Perguruan Tinggi</li>
+                        <li>Pelatihan Akuntansi dan Pengelolaan Desa</li>
+                        <li>Pelatihan Akuntansi Biaya</li>
+                        <li>Pelatihan Pengelolaan dan Penyusunan Laporan Keuangan Dana Kampanye</li>
+                        <li>Program Pengembangan Manajemen</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-back">
+          <a href="jasa.html">
+            <img src="./img/arrow_back.png" alt="Arrow Back">
+          </a>
+        </div> 
+        <footer class="footer">
+            <div class="kolom">
+              <p class="div-2">
+                <span class="text-wrapper"
+                  >Kantor Pusat:<br />Jl. Puter III Blok ED4 Nomor 19 Sektor V Bintaro Jaya, Jurangmangu Timur, Pondok
+                  Aren, Tangerang Selatan 15222<br
+                /></span>
+                <span class="span">View maps<br /><br /></span>
+                <span class="text-wrapper"
+                  >Kantor Cabang:<br />Jl. Gemah Jaya II No. 345, Kinijaya, Kel. Kedungmundu, Kec. Tembalang, Kota
+                  Semarang, Jawa Tengah 50273<br
+                /></span>
+                <span class="span">View maps</span>
+              </p>
+              <div class="text-wrapper-2">Location</div>
+            </div>
+            <div class="kolom-2">
+              <p class="kontakkantor">
+                Kantor Pusat<br />Telp: 021-734 93047<br />Email: kaptby1@gmail.com<br /><br />Kantor Cabang<br />Telp:
+                021-734 93047<br />Email: kaptby1@gmail.com
+              </p>
+              <div class="contact">Contact Kami</div>
+            </div>
+            <div class="kolom-3">
+              <div class="div-2">Tentang Kami<br />Partner<br />Jasa <br />Klien<br />Kontak Kami</div>
+              <div class="KAP">KAP Tri Bowo Yulianti</div>
+            </div>
+          </footer>
+      </div>
+    </div>
+  </body>
+</html>

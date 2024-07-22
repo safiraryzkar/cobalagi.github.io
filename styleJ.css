@@ -1,0 +1,610 @@
+.partner {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .partner .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1672px;
+    position: relative;
+  }
+  
+  .partner .footer {
+    position: absolute;
+    width: 1440px;
+    height: 572px;
+    top: 1100px;
+    left: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .partner .kolom {
+    position: absolute;
+    width: 433px;
+    height: 367px;
+    top: 24px;
+    left: 1011px;
+  }
+  
+  .partner .div-2 {
+    position: absolute;
+    width: 429px;
+    top: 79px;
+    left: 0;
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .partner .text-wrapper {
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .partner .span {
+    text-decoration: underline;
+  }
+  
+  .partner .text-wrapper-2 {
+    position: absolute;
+    width: 129px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+  
+  .partner .kolom-2 {
+    position: absolute;
+    width: 178px;
+    height: 386px;
+    top: 23px;
+    left: 576px;
+  }
+  
+  .partner .kontakkantor {
+    position: absolute;
+    width: 174px;
+    top: 80px;
+    left: 0;
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .partner .contact {
+    position: absolute;
+    width: 158px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+  
+  .partner .kolom-3 {
+    position: absolute;
+    width: 433px;
+    height: 239px;
+    top: 24px;
+    left: 53px;
+  }
+  
+  .partner .KAP {
+    position: absolute;
+    width: 292px;
+    top: 0;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 72px;
+  }
+  
+  .partner .section {
+    position: absolute;
+    width: 1442px;
+    height: 300px;
+    top: 103px;
+    left: 0;
+  }
+  
+  .partner .partner-wrapper {
+    position: relative;
+    width: 1440px;
+    height: 300px;
+    background-image: url(./img/image-14.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .partner .text-wrapper-5 {
+    position: absolute;
+    width: 192px;
+    top: 104px;
+    left: 1110px;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #fffefc;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 72px;
+    white-space: nowrap;
+  }
+  .partner .text-partner {
+    position: absolute;
+    width: 192px;
+    top: 160px;
+    left: 1073px;
+    font-family: "Jost", Helvetica;
+    font-weight: 400;
+    color: #fffefc;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 72px;
+    white-space: nowrap;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #fffefc;
+    box-shadow: 0px 4px 5px #00000005;
+    z-index: 1000; /* Add a high z-index */
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.navbar .menu-item {
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.KAP-TBY-logo-kop {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Styling for hamburger menu icon */
+.icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000; /* Warna ikon hitam */
+    font-size: 24px;
+}
+.jasa {
+    margin-left: 50px; /* Tambahkan margin kiri untuk menggeser ke kanan */
+  }
+
+  .jasa .frame, .jasa .frame-2, .jasa .frame-3, .jasa .frame-4, .jasa .frame-5 {
+    position: relative; /* Ubah posisi menjadi relatif */
+  }
+
+  .jasa .frame {
+    left: 181px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 45px;
+    position: absolute;
+    top: 586px;
+    background-color: #fffefc;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #005a70;
+    box-shadow: 0px 4px 5px #005a70;
+  }
+  
+  .jasa .image {
+    width: 50px;
+    height: 53.11px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .jasa .text-wrapper-A {
+    position: relative;
+    width: 48px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .jasa .text-wrapper-S {
+    position: relative;
+    width: 85px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .jasa .frame-2 {
+    left: 409px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 45px;
+    position: absolute;
+    top: 586px;
+    background-color: #fffefc;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #005a70;
+    box-shadow: 0px 4px 5px #005a70;
+  }
+  
+  .jasa .img {
+    width: 68px;
+    height: 53px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .jasa .text-wrapper-SY {
+    position: relative;
+    width: 65px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .jasa .frame-3 {
+    left: 637px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 45px;
+    position: absolute;
+    top: 586px;
+    background-color: #fffefc;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #005a70;
+    box-shadow: 0px 4px 5px #005a70;
+  }
+  
+  .jasa .image-2 {
+    width: 65.5px;
+    height: 53px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .jasa .text-wrapper-T {
+    position: relative;
+    width: 77px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .jasa .frame-4 {
+    left: 865px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 45px;
+    position: absolute;
+    top: 586px;
+    background-color: #fffefc;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #005a70;
+    box-shadow: 0px 4px 5px #005a70;
+  }
+  
+  .jasa .image-3 {
+    width: 46.49px;
+    height: 53px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .jasa .text-wrapper-AC {
+    position: relative;
+    width: 101px;
+    height: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .jasa .frame-5 {
+    left: 1093px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 45px;
+    position: absolute;
+    top: 586px;
+    background-color: #fffefc;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #005a70;
+    box-shadow: 0px 4px 5px #005a70;
+  }
+  
+  .jasa .image-4 {
+    width: 49.89px;
+    height: 53px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .jasa .text-wrapper-7 {
+    position: relative;
+    width: 29px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  .box {
+    position: relative;
+    width: 1280px;
+    height: 400px;
+  }
+  
+  .box .section {
+    width: 1282px;
+    height: 400px;
+    top: 104px;
+    left: 0;
+  }
+  
+  .box .overlap-group {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 0;
+    left: 665px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #005A70;
+  }
+  
+  .box .overlap-group .text {
+    color: white;
+    font-size: 48px;
+    font-family: "DM Serif Display", Helvetica;
+  }
+
+  .jasa .frame .text-wrapper-A2 {
+    position: relative;
+    width: 48px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-top: 15px; /* Move the text down by 10px */
+
+  }
+  .jasa .frame .text-wrapper-A3 {
+    width: 90px;
+    height: 20px;
+    font-family: "Jost", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;      /* Mengatur teks agar terpusat di dalam elemen */
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-top: 5px;        /* Menjaga jarak antara teks dan gambar */
+  }
+  
+  .jasa .image-A3 {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 5px;    /* Jarak antara gambar dan teks */
+  }
+  .jasa .image-A4 {
+    width: 60px;
+    height: 63px;
+    margin-bottom: 5px;    /* Jarak antara gambar dan teks */
+  }
+  .jasa .image-A2 {
+    width: 50px;
+    height: 53.11px;
+    position: relative;
+    object-fit: cover;
+    margin-top: 5px; /* Move the image down by 10px */
+  }
+/* Ensure you have the correct class or ID selector */
+.label {
+  width: 724px;
+  height: auto; /* Allow height to adjust based on content */
+}
+
+.label .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  margin-left: 400px;
+  top: 180px;
+  width: 1000px; /* Use percentage width to match container */
+}
+
+.label .text {
+  font-family: "Jost", Helvetica; /* Use Jost font */
+  font-weight: 400; /* Regular weight */
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 1.68px;
+  line-height: 40px;
+  margin-left: 1000px;
+  margin: 0; /* Remove default margins for better spacing control */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Match the container width */
+  
+}
+
+.label .flexcontainer .text .text-wrapper{
+  font-weight: 700; /* Bold weight */
+  letter-spacing: 0.4px;
+  font-size: 20px;
+}
+
+.arrow-back {
+  position: absolute;
+  top: 975px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: block;
+}
+.arrow-back2 {
+  position: absolute;
+  top: 995px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: block;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none; /* Menyembunyikan menu utama pada mode kecil */
+    }
+
+    .header {
+        height: 70px; /* Mengurangi tinggi header untuk mode kecil */
+    }
+
+    .KAP-TBY-logo-kop {
+        width: 150px; /* Mengurangi ukuran logo untuk mode kecil */
+    }
+
+    .icon {
+        display: block; /* Menampilkan ikon hamburger menu pada mode kecil */
+    }
+
+    .navbar.responsive {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #fffefc;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar.responsive .menu-item {
+        padding: 15px 20px;
+        text-align: center;
+        border-bottom: 1px solid #ddd; /* Garis pemisah antar menu */
+    }
+}
